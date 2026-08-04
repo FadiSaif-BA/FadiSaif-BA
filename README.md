@@ -11,12 +11,12 @@
 
 ## 🚀 About Me
 
-I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **10 years of experience** designing, building, and operationalizing enterprise data solutions, Medallion Data Lakehouses, automated ETL/ELT pipelines, and decision-support analytics across complex, high-friction environments.
+I can describe myself as an **Analytics Engineer** and **Data Analyst** with over **10 years of experience** in humanitarian data solutions. I have designed, built, and operationalizing organizational data solutions over the past years; from building on-prem Medallion Data Lakehouses, automated ETL/ELT pipelines, and decision-support analytics across complex, high-friction environments.
 
-- ⚙️ **Analytics Engineering & Lakehouses**: Specialized in building ACID-compliant Delta Lake & DuckDB Medallion Architectures (Bronze / Silver / Gold), Prefect workflow orchestration, dbt transformations, data quality governance, and cryptographic PII anonymization.
-- 📊 **Business Intelligence & Data Modeling**: Expert in SQL, Python, and Power BI (DAX, Star Schema Modeling), converting wide operational datasets into executive dashboards and management reporting.
-- 🧠 **Data Science & Machine Learning**: Practitioner in spatial KNN imputation, statistical hypothesis testing (t-tests, Cohen's d, Wilcoxon), and Sequence-to-Sequence Deep Learning models (TensorFlow/Keras).
-- 🎓 **Continuous Learning**: Currently pursuing my **Master of Business Administration (MBA)** at *Liverpool John Moores University, UK*.
+- ⚙️ **Analytics Engineering & Lakehouses**: Specialized in building ACID-compliant Delta Lake & DuckDB Medallion Architectures (Bronze / Silver / Gold), Prefect workflow orchestration, dbt transformations, and data quality governance.
+- 📊 **Business Intelligence & Data Modeling**: Proficient in SQL, Python, and Power BI (DAX, Star Schema Modeling), converting wide operational datasets into executive dashboards and management reporting.
+- 🧠 **Data Science & Machine Learning**: I describe myself as data professional navigating through the world of data science, utilizing existing knowledge stack, mathematical solutions and advanced analytics to provide meaningful insights and solutions to organization; utilizing ML along the way.
+- 🎓 **Continuous Learning**: My professional journey has been one of continuous learning, I am currently pursuing my **Master of Business Administration (MBA)** at *Liverpool John Moores University, UK*, diving deep into learning Data Science, etc.
 
 ---
 
