@@ -23,12 +23,10 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 ## 🛠️ Technical Stack & Skills
 
 ### 💻 Languages & Querying
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
-![T-SQL](https://img.shields.io/badge/T--SQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 ### 🏗️ Analytics Engineering & Data Lakehouses
 ![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-Bronze%2FSilver%2FGold-blue?style=for-the-badge)
@@ -50,8 +48,6 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CA0D7?style=for-the-badge&logo=scipy&logoColor=white)
-![PyArrow](https://img.shields.io/badge/PyArrow-Arrow_IPC-blue?style=for-the-badge)
 
 ---
 
@@ -66,7 +62,7 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 
 ## 🛡️ Professional Certifications
 
-- 🏆 **Microsoft Data Architecture for Modern Data Stacks**
+- 🏆 **Microsoft Data Architecture for Modern Data Stacks** | *Microsoft [Coursera]* (July 2026)
 - 📜 **MEAL DPro Flex Certification** | *Humentum* (July 2020)
 - 🗄️ **Oracle 11G Database Administrator (DBA)** | *University of Science and Technology* (68 Hours, Feb 2014)
 - 💻 **Oracle 10G Developer** | *University of Science and Technology* (160 Hours, Feb – Mar 2014)
