@@ -20,26 +20,56 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 
 ---
 
-## 🛠️ Technical Core Stack & Skills
+## 🛠️ Technical Stack & Skills
 
-```
-  Languages & Querying      :: Python (pandas, NumPy, PyArrow, SciPy, scikit-learn, TensorFlow), SQL (PostgreSQL, MySQL, DuckDB, T-SQL)
-  Analytics Engineering     :: Medallion Architecture (Bronze/Silver/Gold), Delta Lake, DuckDB, Prefect Orchestration, dbt (familiarity)
-  Data Quality & Governance :: PII Anonymization (student_hex_id), Referential-Integrity Quarantine, Schema Evolution, Time-Travel
-  Business Intelligence     :: Power BI (DAX, Star Schema Modeling), Tableau, Advanced Excel (Power Query, Pivot Tables)
-  Data Science & Modeling   :: Spatial KNN Regressors, Random Forest, Seq2Seq Deep Learning, Time-Series Forecasting, Hypothesis Testing
-```
+### 💻 Languages & Querying
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+![T-SQL](https://img.shields.io/badge/T--SQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
+### 🏗️ Analytics Engineering & Data Lakehouses
+![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-Bronze%2FSilver%2FGold-blue?style=for-the-badge)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-000000?style=for-the-badge&logo=delta&logoColor=white)
+![Prefect](https://img.shields.io/badge/Prefect-070C18?style=for-the-badge&logo=prefect&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Data Governance](https://img.shields.io/badge/Data_Governance-PII_Anonymization-green?style=for-the-badge)
+![Zero Data Loss Quarantine](https://img.shields.io/badge/Quality-Zero_Data_Loss_Quarantine-orange?style=for-the-badge)
+
+### 📊 Business Intelligence & Data Visualization
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX & Star Schema](https://img.shields.io/badge/DAX-Star_Schema-yellow?style=for-the-badge)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-Advanced_ETL-green?style=for-the-badge)
+
+### 🧠 Data Science & Machine Learning
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CA0D7?style=for-the-badge&logo=scipy&logoColor=white)
+![PyArrow](https://img.shields.io/badge/PyArrow-Arrow_IPC-blue?style=for-the-badge)
 
 ---
 
-## 🏆 Certifications & Professional Qualifications
+## 🎓 Education
 
-- 🛡️ **Microsoft Data Architecture for Modern Data Stacks**
-- 🎓 **Master of Business Administration (MBA) — General** | *Liverpool John Moores University, UK* (Jan 2025 – Sep 2026, Continued)
-- 📜 **MEAL DPro Flex Certification** | *Humentum* (2020)
-- 🗄️ **Oracle 11G DBA Certification** | *University of Science and Technology* (2014)
-- 💻 **Oracle 10G Developer Certification** | *University of Science and Technology* (2014)
-- 🎓 **Bachelor of Engineering (BEng.) in Information Technology** | *University of Aden, Yemen* (2008 – 2014)
+- **Master of Business Administration (MBA) — General**  
+  *Liverpool John Moores University, United Kingdom* · (Jan 2025 – Sep 2026, Continued)
+- **Bachelor of Engineering (BEng.) — Information Technology**  
+  *University of Aden, Republic of Yemen* · (Sep 2008 – Mar 2014)
+
+---
+
+## 🛡️ Professional Certifications
+
+- 🏆 **Microsoft Data Architecture for Modern Data Stacks**
+- 📜 **MEAL DPro Flex Certification** | *Humentum* (July 2020)
+- 🗄️ **Oracle 11G Database Administrator (DBA)** | *University of Science and Technology* (68 Hours, Feb 2014)
+- 💻 **Oracle 10G Developer** | *University of Science and Technology* (160 Hours, Feb – Mar 2014)
 
 ---
 
@@ -101,6 +131,6 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 
 ---
 
-<p center>
+<p align="center">
   <i>"Transforming complex operational data into auditable lakehouses, reliable pipelines, and strategic decision support."</i>
 </p>
