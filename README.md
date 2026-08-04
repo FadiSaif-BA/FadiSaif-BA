@@ -82,15 +82,15 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 > - Developed a statistically validated 3-tier cascade engine (`SCHOOL_LOCK` $\rightarrow$ `SAME_SCHOOL_LOOKUP` $\rightarrow$ `IMPUTED_KNN` $k=5$) resolving 1,628 corrupted field survey coordinates.
 > - Achieved **0.8715 km mean error** for school locks and **1.0552 km mean error** for spatial KNN predictions, validated via Wilcoxon Signed-Rank tests ($p < 0.000001$).
 
+### 🚗 [**Hyundai Bin Abdulwali — ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
+> **Medallion Data Pipeline & PostgreSQL Analytics Warehouse**
+> - Ingested ERP database instances via Python & SQL into a PostgreSQL Data Warehouse using Medallion Architecture.
+> - Streamlined financial and sales reporting, providing visibility into YoY growth and cash-flow bottlenecks.
+
 ### 🧠 [**Transliteration-Model**](https://github.com/FadiSaif-BA/Transliteration-Model)
 > **Neural Arabic-to-English Transliteration Model (TensorFlow/Keras)**
 > - Built a Sequence-to-Sequence Deep Learning model trained on 70,000+ Yemeni geographic location entries.
 > - Achieved **93% human-validated accuracy**, reducing manual transliteration workload by **60%** for UN World Food Programme operations.
-
-### 🚗 **Hyundai Bin Abdulwali — ERP Sales & Financial Data Warehouse**
-> **Medallion Data Pipeline & PostgreSQL Analytics Warehouse**
-> - Ingested ERP database instances via Python & SQL into a PostgreSQL Data Warehouse using Medallion Architecture.
-> - Streamlined financial and sales reporting, providing visibility into YoY growth and cash-flow bottlenecks.
 
 ### 📦 [**InventoryRecordInformationSystem_IRIS**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
 > **Relational Equipment Tracking System (C# .NET + MySQL)**
@@ -101,11 +101,6 @@ I am a results-oriented **Analytics Engineer** and **Data Analyst** with over **
 > **Quasi-Experimental Statistical Study (Python/SPSS)**
 > - Executed a 12-month matched case-control efficiency study across 30 small-scale farms comparing Drip vs. Traditional irrigation.
 > - Applied t-tests and Cohen's effect sizes, proving a **58.4% cost reduction** and **85.5% water savings**.
-
-### 💼 [**FinancialAnalysis_Simulation**](https://github.com/FadiSaif-BA/FinancialAnalysis_Simulation)
-> **Financial Analytics & Liquidity Risk Optimization**
-> - Modeled 10,000+ transaction records using SQL and Python ETL pipelines to track liquidity indicators (DSO, WIP leakage).
-> - Produced a quarterly cash inflow forecasting model with **95% confidence intervals**.
 
 ---
 
