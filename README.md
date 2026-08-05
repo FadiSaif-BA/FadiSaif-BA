@@ -71,45 +71,89 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 
 ## 💡 Featured Repositories & Real-World Projects
 
-### 🏛️ [**SEAL-DataLakehouse**](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
-*An end-to-end ACID-compliant, Medallion and unified Data Engineering and Analytics platform for humanitarian education data.*
-**Challenge**  
-SEAL managed assessment data for **981 schools**, **200,000+ students**, and millions of records using fragmented spreadsheets, leading to version conflicts, governance risks, and poor scalability.
-**Solution**  
-Designed and built a Medallion Data Lakehouse using **Delta Lake**, **Prefect**, **DuckDB**, and **Python**, implementing automated ETL pipelines, ACID transactions, star-schema modeling, PII anonymization, and enterprise-grade data governance.
-**Impact**  
-Replaced spreadsheet-driven reporting with a centralized, auditable, and analytics-ready platform that delivers a secure Single Source of Truth for programme monitoring and Power BI reporting.
-**Tech Stack:** Python • Delta Lake • DuckDB • Prefect • Pandas • PyArrow • Power BI • KoboToolbox
+### 🏛️ [**Local Delta Medallion Data Lakehouse (PMIS Ecosystem)**](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
 
-### 🌍 [**SEAL-Geospatial-GPS-Imputation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
-*A production-ready geospatial data quality system for large-scale field survey data.*
-**Challenge**  
-Large-scale education assessments contained missing, inaccurate, and out-of-bounds GPS coordinates, making spatial analysis, mapping, and location-based reporting unreliable.
-**Solution**  
-Developed a statistically validated **3-tier geospatial correction pipeline** combining deterministic spatial lookups with a distance-weighted **K-Nearest Neighbors (KNN)** model to automatically detect, validate, and correct GPS coordinates before they enter the analytics pipeline.
-**Impact**  
-Restored the spatial integrity of **1,628 survey records**, achieving up to **90% accuracy within 100 meters** using deterministic methods and reducing ML prediction error by **20.6%** over the baseline model—enabling reliable geospatial analytics and Power BI mapping.
-**Tech Stack:** Python • Scikit-learn • Pandas • Delta Lake • SciPy • NumPy • KoboToolbox
+## 📌 Project Overview
+- **Situation:** Monolithic custom database applications often lock humanitarian projects into fragile, expensive custom software. Conversely, raw spreadsheet workflows create severe data corruption risks, accidental overwrites, and zero audit visibility.
+- **Task:** Engineer a pragmatic, code-free/low-code Data Lakehouse ecosystem for the Sustaining Education and Learning (SEAL) project PMIS, ensuring strict World Bank and Save the Children International (SCI) compliance.
+- **Action:** 
+  - Designed a 3-tier Medallion Architecture (Bronze raw intake, Silver cleaned/deduplicated, Gold business-aggregated) using Python, Delta Lake tables, and DuckDB.
+  - Automated API ingestion from KoboToolbox and CommCare with schema evolution control, ACID transaction logging, and automated change-log audit trails.
+  - Integrated Power BI as the single presentation layer for executive indicator tracking, eliminating direct database exposure.
+- **Result:** Delivered **100% automated schema control**, full data lineage ("family tree" tracing metrics from field tablets to dashboards), zero database server hosting overhead, and instant analytical reporting across 980+ school sites.
+
+### 🛠️ Key Technologies
+`Python` | `Delta Lake` | `DuckDB` | `Prefect` | `KoboToolbox API` | `Power BI` | `Medallion Architecture`
+
+### 🌍 [**Algorithmic Geospatial Imputation & Coordinate Remediation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
+
+## 📌 Project Overview
+- **Situation:** Over 5,000 school GPS coordinates collected via mobile field devices exhibited severe telemetric corruption, projecting local facilities into sub-arctic regions, open ocean zones ("Null Island"), and inverted hemispheric coordinates.
+- **Task:** Programmatically recover and impute true school coordinates using non-corrupted administrative metadata (Governorate, District, Sub-district IDs) and known school cluster nodes without introducing human bias or spatial artifacts.
+- **Action:** 
+  - Conducted forensic pipeline auditing to classify three failure modes: Null Island ($0.0^\circ, 0.0^\circ$), transposed coordinate axes, and almanac precision drift.
+  - Modeled and evaluated Random Forest Regressor (RFR) vs. K-Nearest Neighbors (KNN) Spatial Imputation with Inverse Distance Weighting (IDW) in Python.
+  - Selected KNN with IDW ($k=5$) over RFR because KNN mathematically bounds predictions within the strict topological convex hull of verified neighboring schools, preventing RFR's orthogonal coordinate decoupling artifacts.
+- **Result:** Recovered **5,000+ corrupted school locations** with a **Mean Absolute Error (MAE) under 0.4 km (400 meters)**, restoring 100% spatial reporting integrity for World Bank GIS compliance and field monitoring routes.
+
+### 🛠️ Key Technologies
+`Python` | `K-Nearest Neighbors (KNN)` | `Random Forest` | `Scikit-Learn` | `Haversine Distance` | `GIS & Spatial Regression`
 
 ### 🚗 [**Hyundai Bin Abdulwali — ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
-> **Medallion Data Pipeline & PostgreSQL Analytics Warehouse**
-> - Ingested ERP database instances via Python & SQL into a PostgreSQL Data Warehouse using Medallion Architecture.
-> - Streamlined financial and sales reporting, providing visibility into YoY growth and cash-flow bottlenecks.
 
-### 🧠 [**Transliteration-Model**](https://github.com/FadiSaif-BA/Transliteration-Model)
-> **Neural Arabic-to-English Transliteration Model (TensorFlow/Keras)**
-> - Built a Sequence-to-Sequence Deep Learning model trained on 70,000+ Yemeni geographic location entries.
-> - Achieved **93% human-validated accuracy**, reducing manual transliteration workload by **60%** for UN World Food Programme operations.
+## 📌 Project Overview
+- **Situation:** Automotive dealership and service operations required centralized visibility into high-volume spare parts inventory, vehicle sales performance, and service maintenance turnaround times.
+- **Task:** Build an end-to-end relational inventory data model and correlation framework to reduce stock reconciliation delays, identify revenue leakage in discount structures, and track service KPIs.
+- **Action:** 
+  - Designed relational database schemas in SQL with procedural integrity constraints and automated audit logs for spare parts and vehicle stock tracking.
+  - Performed regression and correlation analysis in Python (Pandas/Matplotlib) to measure relationships between units sold, promotional discount depth, and net margins ($R^2$ evaluation).
+  - Built interactive executive dashboards tracking inventory turnover rate, fast-moving vs. slow-moving stock, and customer retention metrics.
+- **Result:** Streamlined inventory reconciliation time by **over 50%**, eliminated stock-tracking discrepancies, and provided data-driven decision support for inventory procurement and pricing strategy.
 
-### 📦 [**InventoryRecordInformationSystem_IRIS**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
-> **Relational Equipment Tracking System (C# .NET + MySQL)**
-> - Developed a full-stack relational inventory application for WFP targeting equipment tracking.
-> - Reduced equipment tracking time by **75%** and improved data accuracy by **50%** across high-value field deployments.
+### 🛠️ Key Technologies
+`SQL` | `Python (Pandas / Matplotlib)` | `Relational Database Modeling` | `Regression & Correlation Analysis` | `Power BI / Excel`
 
-### 🌾 [**ComparativeIrrigationStudy**](https://github.com/FadiSaif-BA/ComparativeIrrigationStudy)
-> **Quasi-Experimental Statistical Study (Python/SPSS)**
-> - Executed a 12-month matched case-control efficiency study across 30 small-scale farms comparing Drip vs. Traditional irrigation.
-> - Applied t-tests and Cohen's effect sizes, proving a **58.4% cost reduction** and **85.5% water savings**.
+### 🧠 [**Neural Transliteration Application (Arabic-to-English)**](https://github.com/FadiSaif-BA/Transliteration-Model)
+
+## 📌 Project Overview
+- **Situation:** UN WFP humanitarian field operations managed over 70,000 Yemeni geographic location records in Arabic that required standardized English transliteration for GIS spatial mapping and operational reporting.
+- **Task:** Eliminate a slow, manual transliteration process by building an automated Sequence-to-Sequence (Seq2Seq) deep learning model capable of handling Arabic place-name phonetics and orthographic variants.
+- **Action:** 
+  - Developed a Seq2Seq deep learning model in Python using TensorFlow and Keras.
+  - Built custom text-normalization workflows to standardize Arabic orthography (handling Tashkeel, Alef variants, and Ta Marbuta).
+  - Trained and evaluated the model on a dataset of 70,000+ verified location records.
+- **Result:** Achieved **93% validated accuracy** (70% exact string match, with >90% of non-exact outputs reviewer-approved as valid phonetic variants) and **reduced manual transliteration workload by 60%**.
+
+### 🛠️ Key Technologies
+`Python` | `TensorFlow` | `Keras` | `NLP` | `Data Normalization` | `GIS Data Systems`
+
+### 📦 [**Relational Inventory Management System (RIMS)**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
+
+## 📌 Project Overview
+- **Situation:** Field operations lacked a centralized, transactional asset-tracking platform, leading to equipment processing bottlenecks and audit vulnerabilities during emergency deployments.
+- **Task:** Design and implement a multi-user relational inventory database and application to track equipment lifecycles, enforce data integrity, and provide audit trails.
+- **Action:** 
+  - Designed a relational database schema in MySQL utilizing star-schema modeling principles.
+  - Implemented procedural constraints, automated triggers, and full-transaction audit logs for strict data governance.
+  - Developed a full-stack desktop UI in C# (.NET) and Python to streamline equipment check-in/check-out workflows.
+- **Result:** **Reduced equipment processing and reconciliation time by 75%** while **improving data accuracy by over 50%**, ensuring accountability for high-value assets across field deployments.
+
+### 🛠️ Key Technologies
+`MySQL` | `C# (.NET)` | `Python` | `SQL Triggers & Audit Logs` | `Data Governance` | `Star Schema`
+
+### 🌾 [**Irrigation Comparative Analytics Study (Quasi-Experimental)**](https://github.com/FadiSaif-BA/ComparativeIrrigationStudy)
+
+## 📌 Project Overview
+- **Situation:** Humanitarian agricultural programs required empirical evidence to assess whether transitioning small-scale farms from traditional to drip irrigation yielded measurable resource efficiency.
+- **Task:** Design and execute a 12-month quasi-experimental study comparing operational costs, water consumption, and crop yields across 30 matched farm sites.
+- **Action:** 
+  - Conducted a matched case-control research design spanning 12 months of field data collection.
+  - Analyzed longitudinal dataset in Python and SPSS, applying parametric t-tests and Cohen’s effect size metrics to evaluate impact.
+  - Evaluated adoption constraints to identify technology-crop incompatibilities across specific crop types.
+- **Result:** Demonstrated a **58.4% reduction in farming costs** and an **85.5% decrease in water consumption**, preventing resource misallocation and improving future agricultural intervention designs.
+
+### 🛠️ Key Technologies
+`Python` | `SPSS` | `Statistical Hypothesis Testing` | `Quasi-Experimental Design` | `Impact Evaluation`
 
 ---
 
