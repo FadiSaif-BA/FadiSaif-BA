@@ -72,15 +72,24 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ## 💡 Featured Repositories & Real-World Projects
 
 ### 🏛️ [**SEAL-DataLakehouse**](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
-> **Production-grade Medallion Data Lakehouse (Delta Lake, DuckDB, Prefect)**
-> - Designed an end-to-end ACID Delta Lake & DuckDB medallion lakehouse processing 200,000+ student assessment submissions across 981 schools.
-> - Implemented Arabic NLP normalization, 4-stage deduplication, cryptographic PII student anonymization (`student_hex_id`), and DuckDB referential-integrity quarantine with **zero data loss**.
-> - Fully orchestrated via Prefect flows with live Markdown audit artifacts.
+*An end-to-end ACID-compliant, Medallion and unified Data Engineering and Analytics platform for humanitarian education data.*
+**Challenge**  
+SEAL managed assessment data for **981 schools**, **200,000+ students**, and millions of records using fragmented spreadsheets, leading to version conflicts, governance risks, and poor scalability.
+**Solution**  
+Designed and built a Medallion Data Lakehouse using **Delta Lake**, **Prefect**, **DuckDB**, and **Python**, implementing automated ETL pipelines, ACID transactions, star-schema modeling, PII anonymization, and enterprise-grade data governance.
+**Impact**  
+Replaced spreadsheet-driven reporting with a centralized, auditable, and analytics-ready platform that delivers a secure Single Source of Truth for programme monitoring and Power BI reporting.
+**Tech Stack:** Python • Delta Lake • DuckDB • Prefect • Pandas • PyArrow • Power BI • KoboToolbox
 
 ### 🌍 [**SEAL-Geospatial-GPS-Imputation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
-> **Automated 3-Tier Geospatial GPS Imputation Subsystem**
-> - Developed a statistically validated 3-tier cascade engine (`SCHOOL_LOCK` $\rightarrow$ `SAME_SCHOOL_LOOKUP` $\rightarrow$ `IMPUTED_KNN` $k=5$) resolving 1,628 corrupted field survey coordinates.
-> - Achieved **0.8715 km mean error** for school locks and **1.0552 km mean error** for spatial KNN predictions, validated via Wilcoxon Signed-Rank tests ($p < 0.000001$).
+*A production-ready geospatial data quality system for large-scale field survey data.*
+**Challenge**  
+Large-scale education assessments contained missing, inaccurate, and out-of-bounds GPS coordinates, making spatial analysis, mapping, and location-based reporting unreliable.
+**Solution**  
+Developed a statistically validated **3-tier geospatial correction pipeline** combining deterministic spatial lookups with a distance-weighted **K-Nearest Neighbors (KNN)** model to automatically detect, validate, and correct GPS coordinates before they enter the analytics pipeline.
+**Impact**  
+Restored the spatial integrity of **1,628 survey records**, achieving up to **90% accuracy within 100 meters** using deterministic methods and reducing ML prediction error by **20.6%** over the baseline model—enabling reliable geospatial analytics and Power BI mapping.
+**Tech Stack:** Python • Scikit-learn • Pandas • Delta Lake • SciPy • NumPy • KoboToolbox
 
 ### 🚗 [**Hyundai Bin Abdulwali — ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 > **Medallion Data Pipeline & PostgreSQL Analytics Warehouse**
