@@ -88,8 +88,8 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ### 🌍 [**Algorithmic Geospatial Imputation & Coordinate Remediation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
 
 ## 📌 Project Overview
-- **Situation:** Over 5,000 school GPS coordinates collected via mobile field devices exhibited severe telemetric corruption, projecting local facilities into sub-arctic regions, open ocean zones ("Null Island"), and inverted hemispheric coordinates.
-- **Task:** Programmatically recover and impute true school coordinates using non-corrupted administrative metadata (Governorate, District, Sub-district IDs) and known school cluster nodes without introducing human bias or spatial artifacts.
+- **Situation:** Over 5,000 GPS coordinates collected via mobile field devices exhibited severe telemetric corruption, projecting local facilities into sub-arctic regions, open ocean zones ("Null Island"), and inverted hemispheric coordinates.
+- **Task:** Programmatically recover and impute true coordinates using non-corrupted administrative metadata (Governorate, District, Sub-district IDs) and known location cluster nodes without introducing human bias or spatial artifacts.
 - **Action:** 
   - Conducted forensic pipeline auditing to classify three failure modes: Null Island ($0.0^\circ, 0.0^\circ$), transposed coordinate axes, and almanac precision drift.
   - Modeled and evaluated Random Forest Regressor (RFR) vs. K-Nearest Neighbors (KNN) Spatial Imputation with Inverse Distance Weighting (IDW) in Python.
@@ -102,16 +102,17 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ### 🚗 [**Hyundai Bin Abdulwali — ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
 ## 📌 Project Overview
-- **Situation:** Automotive dealership and service operations required centralized visibility into high-volume spare parts inventory, vehicle sales performance, and service maintenance turnaround times.
-- **Task:** Build an end-to-end relational inventory data model and correlation framework to reduce stock reconciliation delays, identify revenue leakage in discount structures, and track service KPIs.
+- **Situation:** Multi-year production sales data (`dbc01y21` – `dbc02y25`) resided across fragmented live MS SQL Server OLTP databases. Running heavy analytical queries directly against production databases caused query lockup and performance degradation for concurrent transactional users.
+- **Task:** Build a high-performance Data Warehouse and automated ingestion pipeline to transfer raw production data into a centralized PostgreSQL 16+ OLAP environment, establishing a Medallion Architecture (Bronze, Silver, Gold) for unified sales, revenue, profit, and Pareto (80/20) analytics.
 - **Action:** 
-  - Designed relational database schemas in SQL with procedural integrity constraints and automated audit logs for spare parts and vehicle stock tracking.
-  - Performed regression and correlation analysis in Python (Pandas/Matplotlib) to measure relationships between units sold, promotional discount depth, and net margins ($R^2$ evaluation).
-  - Built interactive executive dashboards tracking inventory turnover rate, fast-moving vs. slow-moving stock, and customer retention metrics.
-- **Result:** Streamlined inventory reconciliation time by **over 50%**, eliminated stock-tracking discrepancies, and provided data-driven decision support for inventory procurement and pricing strategy.
+  - **ELT Rationale:** Selected ELT over ETL to offload compute-heavy transformations from the live OLTP database, ensuring raw data is bulk-extracted and appended first.
+  - **Infrastructure & Bridging:** Configured MS SQL Server TCP/IP static ports (1433) and built a cross-environment WSL2 (Ubuntu) to Windows Host network bridge with custom PowerShell firewall routing.
+  - **Pipeline Automation:** Authored an automated Bash orchestration script utilizing `pgloader` with batch configurations (`batch rows = 5000`, `prefetch rows = 5000`) to ingest and consolidate multi-year databases into PostgreSQL `bronze` schemas.
+  - **Medallion Data Modeling:** Designed the pipeline to land raw data in `bronze`, transform and validate in `silver`, and materialize dimensional star-schemas in `gold` for rapid BI consumption.
+- **Result:** Successfully consolidated multi-year transactional records into an isolated PostgreSQL OLAP Data Warehouse with **zero impact on live OLTP operations**, enabling sub-second query performance for Pareto sales analysis, profitability metrics, and revenue growth trends.
 
 ### 🛠️ Key Technologies
-`SQL` | `Python (Pandas / Matplotlib)` | `Relational Database Modeling` | `Regression & Correlation Analysis` | `Power BI / Excel`
+`PostgreSQL 16+` | `MS SQL Server` | `ELT Data Pipelines` | `pgloader` | `Bash` | `WSL2 (Ubuntu)` | `Medallion Architecture` | `OLAP Data Warehousing`
 
 ### 🧠 [**Neural Transliteration Application (Arabic-to-English)**](https://github.com/FadiSaif-BA/Transliteration-Model)
 
