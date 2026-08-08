@@ -187,12 +187,19 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 ---
 
-## 📊 Quantified Professional Impact Highlights
+## 📊 Quantified Professional Impact
 
-- 💰 **$30+ Million Funding Impact**: Produced data analytics and evidence briefs that directly secured over $30M in humanitarian program funding across multiple cycles.
-- 🛡️ **90%+ USG Data Audit Pass Rate**: Built data governance and quality assurance protocols achieving >90% success in US Government compliance audits.
-- ⚡ **60% Workload Reduction**: Deployed machine learning & automated database applications that slashed manual processing and transliteration effort by 50–60%.
-- ⏱️ **50% Reporting Cycle Acceleration**: Streamlined reporting pipelines and automated Power BI models, reducing reporting delays by half.
+* **💰 $30M+ Funding Supported** — Produced analytical evidence and monitoring insights that contributed to **$30M+ in humanitarian programme funding** across multiple funding cycles.
+
+* **🗺️ 1,628 GPS Records Corrected or Imputed** — Built a 3-tier geospatial correction system that processed **5,210 assessment records**, recovering **1,628 records (31%)** with invalid or unreliable coordinates; the KNN fallback achieved **1.06 km mean error**, a **20.6% improvement over the k=1 baseline**.
+
+* **🏗️ Millions of Assessment Responses Structured** — Built a Delta Lake medallion pipeline and star-schema warehouse to consolidate large-scale education assessment data from fragmented spreadsheet and API sources into a governed analytical structure.
+
+* **⚙️ 50–60% Manual Processing Reduction** — Automated repetitive data-processing and transliteration tasks using database applications, ML, and automated pipelines, reducing manual workload by **approximately 50–60%**.
+
+* **⏱️ ~50% Reporting Delay Reduction** — Automated data transformation and reporting workflows, reducing reporting-cycle delays by **approximately 50%**.
+
+* **🔤 81K+ Arabic–English Training Pairs** — Developed a hybrid rule-based and neural transliteration system trained on **81,000+ name pairs** to standardize Yemeni administrative names for downstream data processing and analysis.
 
 ---
 
