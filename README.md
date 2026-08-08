@@ -26,10 +26,6 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 **The objective is always the analysis and the decision it enables. Engineering is the means, not the end.**
 
-
-**The objective is always the analysis and the decision it enables. Engineering is the means, not the end.**
-
-
 ---
 
 ## 🛠️ Technical Stack & Skills
