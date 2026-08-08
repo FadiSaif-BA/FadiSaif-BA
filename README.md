@@ -86,8 +86,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
   * Integrated **Power BI** as the presentation layer, separating analytical consumption from the underlying data storage and processing environment.
 * **Result:** Established automated schema validation and change tracking, enabling end-to-end lineage from field data collection through analytical outputs, while eliminating the need for dedicated database-server infrastructure. The resulting architecture supports analytical reporting across **980+ school sites**.
 
-### 🛠️ Key Technologies
-
+### 🛠️ Key Skills and Technologies
 `Python` | `Delta Lake` | `DuckDB` | `Prefect` | `KoboToolbox API` | `CommCare API` | `Power BI` | `Medallion Architecture`
 
 ### 🌍 [**Algorithmic Geospatial Imputation & Coordinate Remediation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
@@ -106,8 +105,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 * **Result:** Recovered plausible coordinates for **5,000+ corrupted school records**, achieving a **Mean Absolute Error (MAE) below 0.4 km (400 m)** under the project's validation framework. The resulting coordinates restored the dataset's usability for **GIS-based reporting, spatial analysis, and field monitoring workflows**.
 
-### 🛠️ Key Technologies
-
+### 🛠️ Key Skills and Technologies
 `Python` | `Scikit-Learn` | `K-Nearest Neighbors (KNN)` | `Random Forest` | `Inverse Distance Weighting (IDW)` | `Haversine Distance` | `GIS` | `Spatial Imputation`
 
 ### 🚗 [**ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
@@ -127,8 +125,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 * **Result:** Consolidated five years of transactional data into an isolated PostgreSQL analytical warehouse, creating a persistent **historical analytical layer** that enables YoY comparisons, revenue-growth analysis, Pareto sales analysis, profitability analysis, and product performance analysis without querying the production OLTP environment. Benchmark analytical queries against the Gold layer achieved **sub-second execution**.
 
-### 🛠️ Key Technologies
-
+### 🛠️ Key Skills and Technologies
 `PostgreSQL 16+` | `MS SQL Server` | `ELT` | `pgloader` | `Bash` | `WSL2` | `Medallion Architecture` | `Dimensional Modeling` | `OLAP Data Warehousing`
 
 ### 🧠 [**Neural Transliteration Application (Arabic-to-English)**](https://github.com/FadiSaif-BA/Transliteration-Model)
@@ -148,9 +145,31 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 * **Result:** Achieved **93% validated transliteration accuracy**, including a **70% exact string-match rate**, with more than 90% of non-exact outputs subsequently validated by reviewers as acceptable phonetic variants. The human-in-the-loop workflow **reduced manual transliteration workload by approximately 60%** while retaining human oversight for ambiguous cases.
 
-### 🛠️ Key Technologies
-
+### 🛠️ Key Skills and Technologies
 `Python` | `TensorFlow` | `Keras` | `Seq2Seq` | `NLP` | `Arabic NLP` | `Text Normalization` | `Human-in-the-Loop ML` | `GIS Data Systems`
+
+
+### 🌾 [**Irrigation Comparative Analytics Study (Quasi-Experimental)**](https://github.com/FadiSaif-BA/ComparativeIrrigationStudy)
+
+## 📌 Project Overview
+
+* **Situation:** Humanitarian agricultural programs needed empirical evidence on whether transitioning small-scale farms from traditional flood irrigation to drip systems actually improved economic and water-use efficiency. A key challenge was distinguishing overall system effects from crop-specific and implementation effects.
+* **Task:** Design and analyse a 12-month matched comparative study of **30 small-scale farms (15 drip, 15 traditional)** in Lahj, Yemen, integrating farm cost records, water-meter measurements, production data, and qualitative farmer evidence.
+* **Action:**
+
+  * Built a matched observational design controlling for **crop type** across irrigation systems and analysed longitudinal farm-level data collected over 12 months.
+  * Conducted exploratory and inferential analysis in Python and SPSS, including distribution analysis, Welch's t-tests, and Cohen's effect sizes to distinguish statistically significant differences from descriptive variation.
+  * Quantified system-level cost and water-efficiency differences while decomposing results by **crop type** to identify heterogeneous treatment outcomes.
+  * Evaluated Linear, Ridge, Lasso, and Random Forest models for production-cost prediction, ultimately rejecting deployment because the **n=30 sample lacked sufficient predictive signal**.
+  * Triangulated quantitative findings with focus-group evidence to investigate mechanisms behind cost differences, adoption barriers, and crop-system incompatibility.
+* **Result:** Drip systems showed **58.4% lower mean operating costs** and **85.5% lower measured water consumption** than traditional systems, with statistically significant reductions in land-preparation and fertilizer costs. However, aggregate efficiency masked substantial heterogeneity: **peppers showed strong drip advantages, while onion production experienced widespread failure under drip conditions**. The analysis therefore rejected a blanket "drip is better" conclusion and identified **crop-system compatibility, farmer capability, and implementation support** as critical conditions for successful technology adoption.
+
+### 🛠️ Key Skills and Technologies
+`Python` | `SPSS` | `Statistical Inference` | `Quasi-Experimental Design` | `Effect Size Analysis` | `Predictive Modelling` | `Longitudinal Analysis` | `Impact Evaluation`
+
+---
+
+## 💡 Other Repositories & Real-World Projects
 
 ### 📦 [**Relational Inventory Management System (RIMS)**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
 
@@ -163,27 +182,8 @@ My focus is on **turning operational data into reliable, decision-ready evidence
   - Developed a full-stack desktop UI in C# (.NET) and Python to streamline equipment check-in/check-out workflows.
 - **Result:** **Reduced equipment processing and reconciliation time by 75%** while **improving data accuracy by over 50%**, ensuring accountability for high-value assets across field deployments.
 
-### 🛠️ Key Technologies
+### 🛠️ Key Skills and Technologies
 `MySQL` | `C# (.NET)` | `Python` | `SQL Triggers & Audit Logs` | `Data Governance` | `Star Schema`
-
-### 🌾 [**Irrigation Comparative Analytics Study (Quasi-Experimental)**](https://github.com/FadiSaif-BA/ComparativeIrrigationStudy)
-
-## 📌 Project Overview
-
-* **Situation:** Humanitarian agricultural programs needed empirical evidence on whether transitioning small-scale farms from traditional to drip irrigation produced measurable improvements in **resource efficiency, operating costs, and crop productivity**.
-
-* **Task:** Design and conduct a **12-month quasi-experimental evaluation** comparing matched farms using traditional and drip irrigation across **30 farm sites**.
-
-* **Action:**
-
-  * Designed a longitudinal matched comparison framework and collected field data across a 12-month observation period.
-  * Analyzed the resulting dataset using **Python and SPSS**, applying parametric hypothesis tests and **Cohen's effect size** measures to assess differences between irrigation groups.
-  * Examined variation across crop types to identify **technology–crop compatibility constraints** and potential limitations to intervention scalability.
-
-* **Result:** Observed a **58.4% reduction in farming costs** and an **85.5% reduction in water consumption** among farms using drip irrigation relative to the matched comparison group. The findings informed future agricultural intervention design by identifying both **resource-efficiency gains and crop-specific adoption constraints**.
-
-### 🛠️ Key Technologies
-`Python` | `SPSS` | `Statistical Hypothesis Testing` | `Effect Size Analysis` | `Quasi-Experimental Design` | `Longitudinal Analysis` | `Impact Evaluation`
 
 ---
 
