@@ -169,7 +169,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 ---
 
-## 💡 Other Repositories & Real-World Projects
+## 💡 Other Repositories & Projects
 
 ### 📦 [**Relational Inventory Management System (RIMS)**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
 
