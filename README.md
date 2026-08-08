@@ -183,8 +183,8 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 * **Result:** Observed a **58.4% reduction in farming costs** and an **85.5% reduction in water consumption** among farms using drip irrigation relative to the matched comparison group. The findings informed future agricultural intervention design by identifying both **resource-efficiency gains and crop-specific adoption constraints**.
 
 ### 🛠️ Key Technologies
-
 `Python` | `SPSS` | `Statistical Hypothesis Testing` | `Effect Size Analysis` | `Quasi-Experimental Design` | `Longitudinal Analysis` | `Impact Evaluation`
+
 ---
 
 ## 📊 Quantified Professional Impact Highlights
