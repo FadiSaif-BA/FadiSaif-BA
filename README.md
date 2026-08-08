@@ -91,6 +91,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 ### 🛠️ Key Skills and Technologies
 `Python` | `Delta Lake` | `DuckDB` | `Prefect` | `KoboToolbox API` | `CommCare API` | `Power BI` | `Medallion Architecture`
 
+
 ### 🌍 [**Algorithmic Geospatial Imputation & Coordinate Remediation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
 
 ## 📌 Project Overview
@@ -109,6 +110,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 ### 🛠️ Key Skills and Technologies
 `Python` | `Scikit-Learn` | `K-Nearest Neighbors (KNN)` | `Random Forest` | `Inverse Distance Weighting (IDW)` | `Haversine Distance` | `GIS` | `Spatial Imputation`
+
 
 ### 🚗 [**ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
@@ -129,6 +131,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 
 ### 🛠️ Key Skills and Technologies
 `PostgreSQL 16+` | `MS SQL Server` | `ELT` | `pgloader` | `Bash` | `WSL2` | `Medallion Architecture` | `Dimensional Modeling` | `OLAP Data Warehousing`
+
 
 ### 🧠 [**Neural Transliteration Application (Arabic-to-English)**](https://github.com/FadiSaif-BA/Transliteration-Model)
 
