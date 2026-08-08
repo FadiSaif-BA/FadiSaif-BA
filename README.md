@@ -154,26 +154,6 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 `Python` | `TensorFlow` | `Keras` | `Seq2Seq` | `NLP` | `Arabic NLP` | `Text Normalization` | `Human-in-the-Loop ML` | `GIS Data Systems`
 
 
-### 🌾 [**Irrigation Comparative Analytics Study (Quasi-Experimental)**](https://github.com/FadiSaif-BA/ComparativeIrrigationStudy)
-
-## 📌 Project Overview
-
-* **Situation:** Humanitarian agricultural programs needed empirical evidence on whether transitioning small-scale farms from traditional flood irrigation to drip systems actually improved economic and water-use efficiency. A key challenge was distinguishing overall system effects from crop-specific and implementation effects.
-* **Task:** Design and analyse a 12-month matched comparative study of **30 small-scale farms (15 drip, 15 traditional)** in Lahj, Yemen, integrating farm cost records, water-meter measurements, production data, and qualitative farmer evidence.
-* **Action:**
-
-  * Built a matched observational design controlling for **crop type** across irrigation systems and analysed longitudinal farm-level data collected over 12 months.
-  * Conducted exploratory and inferential analysis in Python and SPSS, including distribution analysis, Welch's t-tests, and Cohen's effect sizes to distinguish statistically significant differences from descriptive variation.
-  * Quantified system-level cost and water-efficiency differences while decomposing results by **crop type** to identify heterogeneous treatment outcomes.
-  * Evaluated Linear, Ridge, Lasso, and Random Forest models for production-cost prediction, ultimately rejecting deployment because the **n=30 sample lacked sufficient predictive signal**.
-  * Triangulated quantitative findings with focus-group evidence to investigate mechanisms behind cost differences, adoption barriers, and crop-system incompatibility.
-* **Result:** Drip systems showed **58.4% lower mean operating costs** and **85.5% lower measured water consumption** than traditional systems, with statistically significant reductions in land-preparation and fertilizer costs. However, aggregate efficiency masked substantial heterogeneity: **peppers showed strong drip advantages, while onion production experienced widespread failure under drip conditions**. The analysis therefore rejected a blanket "drip is better" conclusion and identified **crop-system compatibility, farmer capability, and implementation support** as critical conditions for successful technology adoption.
-
-### 🛠️ Key Skills and Technologies
-`Python` | `SPSS` | `Statistical Inference` | `Quasi-Experimental Design` | `Effect Size Analysis` | `Predictive Modelling` | `Longitudinal Analysis` | `Impact Evaluation`
-
----
-
 ## 💡 Other Repositories & Projects
 
 ### 📦 [**Relational Inventory Management System (RIMS)**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
