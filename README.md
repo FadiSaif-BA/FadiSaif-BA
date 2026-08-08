@@ -11,12 +11,18 @@
 
 ## 🚀 About Me
 
-I can describe myself as an **Analytics Engineer** and **Data Analyst** with over **10 years of experience** in humanitarian data solutions. I have designed, built, and operationalizing organizational data solutions over the past years; from building on-prem Medallion Data Lakehouses, automated ETL/ELT pipelines, and decision-support analytics across complex, high-friction environments.
+I’m an **Analytics Engineer and Data Analyst** with 10+ years of experience designing and operationalizing data solutions in complex, resource-constrained environments, particularly across the humanitarian sector.
 
-- ⚙️ **Analytics Engineering & Lakehouses**: Specialized in building ACID-compliant Delta Lake & DuckDB Medallion Architectures (Bronze / Silver / Gold), Prefect workflow orchestration, dbt transformations, and data quality governance.
-- 📊 **Business Intelligence & Data Modeling**: Proficient in SQL, Python, and Power BI (DAX, Star Schema Modeling), converting wide operational datasets into executive dashboards and management reporting.
-- 🧠 **Data Science & Machine Learning**: I describe myself as data professional navigating through the world of data science, utilizing existing knowledge stack, mathematical solutions and advanced analytics to provide meaningful insights and solutions to organization; utilizing ML along the way.
-- 🎓 **Continuous Learning**: My professional journey has been one of continuous learning, I am currently pursuing my **Master of Business Administration (MBA)** at *Liverpool John Moores University, UK*, diving deep into learning Data Science, etc.
+My focus is on **turning operational data into reliable, decision-ready evidence**. I use data engineering and architecture as the foundation for good analytics—building the pipelines, models, quality controls, and analytical layers required to move from fragmented source data to trustworthy insights.
+
+* ⚙️ **Analytics Engineering & Data Architecture**: Design and build pragmatic data platforms and Medallion architectures using technologies such as **Delta Lake, DuckDB, dbt, and Prefect**, with an emphasis on reliability, reproducibility, data quality, and maintainability.
+
+* 📊 **Analytics & Business Intelligence**: Use **SQL, Python, Power BI, and dimensional data modeling** to transform complex operational datasets into analytical models, dashboards, and decision-support products for management and programmatic decision-making.
+
+* 🧠 **Advanced Analytics & Data Science**: Apply **statistics, mathematical methods, and machine learning** where they provide genuine analytical value—not as an end in themselves, but as tools for answering substantive questions and solving real-world problems.
+
+**The objective is always the analysis and the decision it enables. Engineering is the means, not the end.**
+
 
 ---
 
@@ -33,8 +39,6 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-000000?style=for-the-badge&logo=delta&logoColor=white)
 ![Prefect](https://img.shields.io/badge/Prefect-070C18?style=for-the-badge&logo=prefect&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-![Data Governance](https://img.shields.io/badge/Data_Governance-PII_Anonymization-green?style=for-the-badge)
-![Zero Data Loss Quarantine](https://img.shields.io/badge/Quality-Zero_Data_Loss_Quarantine-orange?style=for-the-badge)
 
 ### 📊 Business Intelligence & Data Visualization
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -44,8 +48,6 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ![Power Query](https://img.shields.io/badge/Power_Query-Advanced_ETL-green?style=for-the-badge)
 
 ### 🧠 Data Science & Machine Learning
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
@@ -74,59 +76,81 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ### 🏛️ [**Local Delta Medallion Data Lakehouse (PMIS Ecosystem)**](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
 
 ## 📌 Project Overview
-- **Situation:** Monolithic custom database applications often lock humanitarian projects into fragile, expensive custom software. Conversely, raw spreadsheet workflows create severe data corruption risks, accidental overwrites, and zero audit visibility.
-- **Task:** Engineer a pragmatic, code-free/low-code Data Lakehouse ecosystem for the Sustaining Education and Learning (SEAL) project PMIS, ensuring strict World Bank and Save the Children International (SCI) compliance.
-- **Action:** 
-  - Designed a 3-tier Medallion Architecture (Bronze raw intake, Silver cleaned/deduplicated, Gold business-aggregated) using Python, Delta Lake tables, and DuckDB.
-  - Automated API ingestion from KoboToolbox and CommCare with schema evolution control, ACID transaction logging, and automated change-log audit trails.
-  - Integrated Power BI as the single presentation layer for executive indicator tracking, eliminating direct database exposure.
-- **Result:** Delivered **100% automated schema control**, full data lineage ("family tree" tracing metrics from field tablets to dashboards), zero database server hosting overhead, and instant analytical reporting across 980+ school sites.
+
+* **Situation:** Monolithic custom database applications can lock humanitarian projects into fragile and costly software ecosystems. At the other extreme, spreadsheet-based workflows introduce risks of data corruption, accidental overwrites, inconsistent versions, and limited auditability.
+* **Task:** Design and implement a pragmatic, low-code Data Lakehouse ecosystem for the Sustaining Education and Learning (SEAL) project PMIS, supporting the project's data governance and compliance requirements while operating under constrained infrastructure.
+* **Action:**
+
+  * Designed a 3-tier **Medallion Architecture** (Bronze raw intake, Silver standardized and deduplicated data, Gold business-ready aggregates) using Python, Delta Lake, and DuckDB.
+  * Automated API ingestion from **KoboToolbox and CommCare**, incorporating schema validation, controlled schema evolution, ACID transactions, and automated change logging.
+  * Integrated **Power BI** as the presentation layer, separating analytical consumption from the underlying data storage and processing environment.
+* **Result:** Established automated schema validation and change tracking, enabling end-to-end lineage from field data collection through analytical outputs, while eliminating the need for dedicated database-server infrastructure. The resulting architecture supports analytical reporting across **980+ school sites**.
 
 ### 🛠️ Key Technologies
-`Python` | `Delta Lake` | `DuckDB` | `Prefect` | `KoboToolbox API` | `Power BI` | `Medallion Architecture`
+
+`Python` | `Delta Lake` | `DuckDB` | `Prefect` | `KoboToolbox API` | `CommCare API` | `Power BI` | `Medallion Architecture`
 
 ### 🌍 [**Algorithmic Geospatial Imputation & Coordinate Remediation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
 
 ## 📌 Project Overview
-- **Situation:** Over 5,000 GPS coordinates collected via mobile field devices exhibited severe telemetric corruption, projecting local facilities into sub-arctic regions, open ocean zones ("Null Island"), and inverted hemispheric coordinates.
-- **Task:** Programmatically recover and impute true coordinates using non-corrupted administrative metadata (Governorate, District, Sub-district IDs) and known location cluster nodes without introducing human bias or spatial artifacts.
-- **Action:** 
-  - Conducted forensic pipeline auditing to classify three failure modes: Null Island ($0.0^\circ, 0.0^\circ$), transposed coordinate axes, and almanac precision drift.
-  - Modeled and evaluated Random Forest Regressor (RFR) vs. K-Nearest Neighbors (KNN) Spatial Imputation with Inverse Distance Weighting (IDW) in Python.
-  - Selected KNN with IDW ($k=5$) over RFR because KNN mathematically bounds predictions within the strict topological convex hull of verified neighboring schools, preventing RFR's orthogonal coordinate decoupling artifacts.
-- **Result:** Recovered **5,000+ corrupted school locations** with a **Mean Absolute Error (MAE) under 0.4 km (400 meters)**, restoring 100% spatial reporting integrity for World Bank GIS compliance and field monitoring routes.
+
+* **Situation:** More than **5,000 GPS records** collected through mobile field devices contained invalid or corrupted coordinates, including `(0°, 0°)`, transposed latitude/longitude values, implausible locations, and precision anomalies that displaced schools far outside their expected geographic areas.
+
+* **Task:** Develop a reproducible spatial imputation pipeline to recover plausible school coordinates using trusted administrative metadata (Governorate, District, and Sub-district IDs) and verified geographic reference points, while avoiding manual coordinate correction.
+
+* **Action:**
+
+  * Conducted forensic data and pipeline auditing to identify and classify the principal coordinate failure modes, including **Null Island coordinates, axis transposition, and precision/rounding anomalies**.
+  * Evaluated **Random Forest Regression (RFR)** against **K-Nearest Neighbors (KNN) with Inverse Distance Weighting (IDW)** for spatial coordinate imputation.
+  * Selected **KNN-IDW (`k=5`)** based on validation performance and its interpolation properties: non-negative distance-based weights produce predictions within the convex hull of the contributing reference locations, reducing implausible spatial extrapolation.
+
+* **Result:** Recovered plausible coordinates for **5,000+ corrupted school records**, achieving a **Mean Absolute Error (MAE) below 0.4 km (400 m)** under the project's validation framework. The resulting coordinates restored the dataset's usability for **GIS-based reporting, spatial analysis, and field monitoring workflows**.
 
 ### 🛠️ Key Technologies
-`Python` | `K-Nearest Neighbors (KNN)` | `Random Forest` | `Scikit-Learn` | `Haversine Distance` | `GIS & Spatial Regression`
 
-### 🚗 [**Hyundai Bin Abdulwali — ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
+`Python` | `Scikit-Learn` | `K-Nearest Neighbors (KNN)` | `Random Forest` | `Inverse Distance Weighting (IDW)` | `Haversine Distance` | `GIS` | `Spatial Imputation`
+
+### 🚗 [**ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
 ## 📌 Project Overview
-- **Situation:** Multi-year production sales data (`dbc01y21` – `dbc02y25`) resided across fragmented live MS SQL Server OLTP databases. Running heavy analytical queries directly against production databases caused query lockup and performance degradation for concurrent transactional users.
-- **Task:** Build a high-performance Data Warehouse and automated ingestion pipeline to transfer raw production data into a centralized PostgreSQL 16+ OLAP environment, establishing a Medallion Architecture (Bronze, Silver, Gold) for unified sales, revenue, profit, and Pareto (80/20) analytics.
-- **Action:** 
-  - **ELT Rationale:** Selected ELT over ETL to offload compute-heavy transformations from the live OLTP database, ensuring raw data is bulk-extracted and appended first.
-  - **Infrastructure & Bridging:** Configured MS SQL Server TCP/IP static ports (1433) and built a cross-environment WSL2 (Ubuntu) to Windows Host network bridge with custom PowerShell firewall routing.
-  - **Pipeline Automation:** Authored an automated Bash orchestration script utilizing `pgloader` with batch configurations (`batch rows = 5000`, `prefetch rows = 5000`) to ingest and consolidate multi-year databases into PostgreSQL `bronze` schemas.
-  - **Medallion Data Modeling:** Designed the pipeline to land raw data in `bronze`, transform and validate in `silver`, and materialize dimensional star-schemas in `gold` for rapid BI consumption.
-- **Result:** Successfully consolidated multi-year transactional records into an isolated PostgreSQL OLAP Data Warehouse with **zero impact on live OLTP operations**, enabling sub-second query performance for Pareto sales analysis, profitability metrics, and revenue growth trends.
+
+* **Situation:** Five years of production sales data (2021–2025) were distributed across live **MS SQL Server OLTP databases**, with the operational setup focused primarily on transactional processing rather than longitudinal analysis. Historical data was not consolidated into a common analytical model, making cross-year analysis such as **YoY revenue growth, sales trends, and product performance** difficult and inefficient, while heavy analytical queries against production systems risked affecting concurrent transactional workloads.
+
+* **Task:** Build a centralized **OLAP Data Warehouse and automated ingestion pipeline** that separates analytical workloads from production systems and creates a unified historical foundation for sales, revenue, and profitability analysis.
+
+* **Action:**
+
+  * **ELT Architecture:** Designed an ELT workflow that bulk-extracts production data before transformation, minimizing compute-intensive workloads imposed on the source OLTP systems.
+  * **Data Ingestion:** Automated cross-database ingestion into **PostgreSQL 16+**, consolidating multi-year transactional records into structured `bronze` schemas using `pgloader` and Bash orchestration.
+  * **Medallion Data Modeling:** Implemented a **Bronze → Silver → Gold** architecture, progressing from raw replicated data through validation and transformation to dimensional **star schemas** optimized for analytical workloads.
+  * **Infrastructure Isolation:** Configured the cross-environment networking required to connect the source SQL Server environment with the PostgreSQL warehouse while keeping analytical processing separate from the production database.
+
+* **Result:** Consolidated five years of transactional data into an isolated PostgreSQL analytical warehouse, creating a persistent **historical analytical layer** that enables YoY comparisons, revenue-growth analysis, Pareto sales analysis, profitability analysis, and product performance analysis without querying the production OLTP environment. Benchmark analytical queries against the Gold layer achieved **sub-second execution**.
 
 ### 🛠️ Key Technologies
-`PostgreSQL 16+` | `MS SQL Server` | `ELT Data Pipelines` | `pgloader` | `Bash` | `WSL2 (Ubuntu)` | `Medallion Architecture` | `OLAP Data Warehousing`
+
+`PostgreSQL 16+` | `MS SQL Server` | `ELT` | `pgloader` | `Bash` | `WSL2` | `Medallion Architecture` | `Dimensional Modeling` | `OLAP Data Warehousing`
 
 ### 🧠 [**Neural Transliteration Application (Arabic-to-English)**](https://github.com/FadiSaif-BA/Transliteration-Model)
 
 ## 📌 Project Overview
-- **Situation:** UN WFP humanitarian field operations managed over 70,000 Yemeni geographic location records in Arabic that required standardized English transliteration for GIS spatial mapping and operational reporting.
-- **Task:** Eliminate a slow, manual transliteration process by building an automated Sequence-to-Sequence (Seq2Seq) deep learning model capable of handling Arabic place-name phonetics and orthographic variants.
-- **Action:** 
-  - Developed a Seq2Seq deep learning model in Python using TensorFlow and Keras.
-  - Built custom text-normalization workflows to standardize Arabic orthography (handling Tashkeel, Alef variants, and Ta Marbuta).
-  - Trained and evaluated the model on a dataset of 70,000+ verified location records.
-- **Result:** Achieved **93% validated accuracy** (70% exact string match, with >90% of non-exact outputs reviewer-approved as valid phonetic variants) and **reduced manual transliteration workload by 60%**.
+
+* **Situation:** UN WFP humanitarian field operations maintained **70,000+ Yemeni geographic location records** in Arabic that required standardized English transliteration for GIS mapping, reporting, and downstream data workflows. Manual transliteration was slow, inconsistent, and difficult to scale.
+
+* **Task:** Develop an automated transliteration system capable of handling Arabic place-name phonetics and orthographic variation, while retaining **human validation** for ambiguous outputs where linguistic correctness could not be reliably determined by the model alone.
+
+* **Action:**
+
+  * Developed and trained a **Sequence-to-Sequence (Seq2Seq) neural network** using Python, TensorFlow, and Keras on 70,000+ verified location records.
+  * Built custom Arabic text-normalization pipelines to address orthographic variation, including **Tashkeel, Alef variants, and Ta Marbuta**.
+  * Evaluated model outputs using both **exact-match accuracy and human validation**, distinguishing literal string differences from linguistically valid transliteration variants.
+  * **Operationalized the model as a local human-in-the-loop application**, allowing automated transliteration outputs to be reviewed and corrected before incorporation into operational datasets. The deployment remained local due to organizational data-governance and approval requirements for external/production infrastructure.
+
+* **Result:** Achieved **93% validated transliteration accuracy**, including a **70% exact string-match rate**, with more than 90% of non-exact outputs subsequently validated by reviewers as acceptable phonetic variants. The human-in-the-loop workflow **reduced manual transliteration workload by approximately 60%** while retaining human oversight for ambiguous cases.
 
 ### 🛠️ Key Technologies
-`Python` | `TensorFlow` | `Keras` | `NLP` | `Data Normalization` | `GIS Data Systems`
+
+`Python` | `TensorFlow` | `Keras` | `Seq2Seq` | `NLP` | `Arabic NLP` | `Text Normalization` | `Human-in-the-Loop ML` | `GIS Data Systems`
 
 ### 📦 [**Relational Inventory Management System (RIMS)**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
 
@@ -145,17 +169,22 @@ I can describe myself as an **Analytics Engineer** and **Data Analyst** with ove
 ### 🌾 [**Irrigation Comparative Analytics Study (Quasi-Experimental)**](https://github.com/FadiSaif-BA/ComparativeIrrigationStudy)
 
 ## 📌 Project Overview
-- **Situation:** Humanitarian agricultural programs required empirical evidence to assess whether transitioning small-scale farms from traditional to drip irrigation yielded measurable resource efficiency.
-- **Task:** Design and execute a 12-month quasi-experimental study comparing operational costs, water consumption, and crop yields across 30 matched farm sites.
-- **Action:** 
-  - Conducted a matched case-control research design spanning 12 months of field data collection.
-  - Analyzed longitudinal dataset in Python and SPSS, applying parametric t-tests and Cohen’s effect size metrics to evaluate impact.
-  - Evaluated adoption constraints to identify technology-crop incompatibilities across specific crop types.
-- **Result:** Demonstrated a **58.4% reduction in farming costs** and an **85.5% decrease in water consumption**, preventing resource misallocation and improving future agricultural intervention designs.
+
+* **Situation:** Humanitarian agricultural programs needed empirical evidence on whether transitioning small-scale farms from traditional to drip irrigation produced measurable improvements in **resource efficiency, operating costs, and crop productivity**.
+
+* **Task:** Design and conduct a **12-month quasi-experimental evaluation** comparing matched farms using traditional and drip irrigation across **30 farm sites**.
+
+* **Action:**
+
+  * Designed a longitudinal matched comparison framework and collected field data across a 12-month observation period.
+  * Analyzed the resulting dataset using **Python and SPSS**, applying parametric hypothesis tests and **Cohen's effect size** measures to assess differences between irrigation groups.
+  * Examined variation across crop types to identify **technology–crop compatibility constraints** and potential limitations to intervention scalability.
+
+* **Result:** Observed a **58.4% reduction in farming costs** and an **85.5% reduction in water consumption** among farms using drip irrigation relative to the matched comparison group. The findings informed future agricultural intervention design by identifying both **resource-efficiency gains and crop-specific adoption constraints**.
 
 ### 🛠️ Key Technologies
-`Python` | `SPSS` | `Statistical Hypothesis Testing` | `Quasi-Experimental Design` | `Impact Evaluation`
 
+`Python` | `SPSS` | `Statistical Hypothesis Testing` | `Effect Size Analysis` | `Quasi-Experimental Design` | `Longitudinal Analysis` | `Impact Evaluation`
 ---
 
 ## 📊 Quantified Professional Impact Highlights
