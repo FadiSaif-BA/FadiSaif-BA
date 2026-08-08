@@ -11,15 +11,21 @@
 
 ## 🚀 About Me
 
-I’m an **Analytics Engineer and Data Analyst** with 10+ years of experience designing and operationalizing data solutions in complex, resource-constrained environments, particularly across the humanitarian sector.
+I’m a **Data & Analytics professional** with 10+ years of experience working with operational, programmatic, and administrative data in complex and resource-constrained environments, including more than 7 years in **MEAL/MEL/MERL** roles across the development and humanitarian sectors.
 
-My focus is on **turning operational data into reliable, decision-ready evidence**. I use data engineering and architecture as the foundation for good analytics—building the pipelines, models, quality controls, and analytical layers required to move from fragmented source data to trustworthy insights.
+My career has increasingly moved toward **data analytics, analytics engineering, and data science**. While my earlier roles were not formally titled as data positions, analysis was a substantial part of the work—from SPSS and Excel-based statistical analysis and monitoring systems to performance reporting, data quality, evidence generation, and decision support.
 
-* ⚙️ **Analytics Engineering & Data Architecture**: Design and build pragmatic data platforms and Medallion architectures using technologies such as **Delta Lake, DuckDB, dbt, and Prefect**, with an emphasis on reliability, reproducibility, data quality, and maintainability.
+Since 2025, I have focused more deliberately on data as a technical discipline, building on that domain and analytical experience to develop production-oriented data solutions.
 
-* 📊 **Analytics & Business Intelligence**: Use **SQL, Python, Power BI, and dimensional data modeling** to transform complex operational datasets into analytical models, dashboards, and decision-support products for management and programmatic decision-making.
+My focus is on **turning operational data into reliable, decision-ready evidence**. I use data engineering and architecture as the foundation for good analytics—building the pipelines, data models, quality controls, and analytical layers required to move from fragmented source data to trustworthy analysis.
 
-* 🧠 **Advanced Analytics & Data Science**: Apply **statistics, mathematical methods, and machine learning** where they provide genuine analytical value—not as an end in themselves, but as tools for answering substantive questions and solving real-world problems.
+* ⚙️ **Analytics Engineering & Data Architecture**: Design and build pragmatic data platforms and Medallion architectures using technologies such as **Delta Lake, DuckDB, dbt, and Prefect**, with emphasis on reliability, reproducibility, data quality, and maintainability.
+* 📊 **Analytics & Business Intelligence**: Use **SQL, Python, Power BI, and dimensional modeling** to transform complex operational datasets into analytical models, reporting products, and decision-support tools.
+* 🧠 **Advanced Analytics & Data Science**: Apply **statistics, mathematical methods, and machine learning** when they provide genuine analytical value—for example, using spatial KNN to recover missing geospatial information and neural sequence models to address Arabic transliteration.
+* 🌍 **Domain-Driven Analytics**: Bring substantial experience in **monitoring, evaluation, program performance, and operational data**, allowing me to approach analytical problems from both the data and decision-making sides.
+
+**The objective is always the analysis and the decision it enables. Engineering is the means, not the end.**
+
 
 **The objective is always the analysis and the decision it enables. Engineering is the means, not the end.**
 
