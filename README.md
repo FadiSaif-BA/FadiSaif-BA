@@ -110,14 +110,10 @@ The table below gives a quick overview of the portfolio. The detailed case studi
 **Analytics and querying:**  
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
 **Data modeling and storage:**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MS SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=flat-square)
 ![Star Schema](https://img.shields.io/badge/Star_Schema-4A5568?style=flat-square)
 ![Dimensional Modeling](https://img.shields.io/badge/Dimensional_Modeling-4A5568?style=flat-square)
@@ -125,8 +121,6 @@ The table below gives a quick overview of the portfolio. The detailed case studi
 
 **Workflow and data preparation:**  
 ![Prefect](https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white)
-![PyArrow](https://img.shields.io/badge/PyArrow-E4155B?style=flat-square&logo=apachearrow&logoColor=white)
-![openpyxl](https://img.shields.io/badge/openpyxl-217346?style=flat-square)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square)
 ![Data validation](https://img.shields.io/badge/Data_validation-475569?style=flat-square)
 ![Deduplication](https://img.shields.io/badge/Deduplication-475569?style=flat-square)
@@ -135,7 +129,6 @@ The table below gives a quick overview of the portfolio. The detailed case studi
 **BI and reporting:**  
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![KPI design](https://img.shields.io/badge/KPI_design-0284C7?style=flat-square)
-![Operational reporting](https://img.shields.io/badge/Operational_reporting-0284C7?style=flat-square)
 ![Monitoring and evaluation analytics](https://img.shields.io/badge/M%26E_Analytics-0369A1?style=flat-square)
 
 **Applied data science:**  
@@ -143,9 +136,8 @@ The table below gives a quick overview of the portfolio. The detailed case studi
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![KNN](https://img.shields.io/badge/KNN-7C3AED?style=flat-square)
-![Geospatial analysis](https://img.shields.io/badge/Geospatial_analysis-059669?style=flat-square)
 ![Arabic NLP](https://img.shields.io/badge/Arabic_NLP-4338CA?style=flat-square)
-![Text normalization](https://img.shields.io/badge/Text_normalization-4338CA?style=flat-square)
+![Text mining](https://img.shields.io/badge/Text_normalization-4338CA?style=flat-square)
 ![Model evaluation](https://img.shields.io/badge/Model_evaluation-6366F1?style=flat-square)
 
 ---
