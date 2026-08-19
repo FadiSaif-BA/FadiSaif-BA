@@ -34,8 +34,8 @@ The table below gives a quick overview of the portfolio. The detailed case studi
 | Project | Problem addressed | Analytical or business value |
 |---|---|---|
 | [SEAL Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse) | Assessment and reference data came from different systems and spreadsheet-based workflows, creating repeated cleaning and reproducibility challenges. | Provides a structured analytical foundation with clearer data lineage, quality controls, and reporting-ready models. |
-| [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse) | Multi-year sales data was distributed across legacy SQL Server ERP systems, making historical analysis more difficult. | Supports revenue, profitability, product, Pareto, customer, and market-basket analysis in an isolated analytical environment. |
-| [Geospatial GPS Imputation](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation) | Missing, imprecise, or invalid coordinates reduced the reliability of mapping and spatial monitoring. | Corrected or imputed approximately 1,600 documented records and provides a design that can be extended toward larger datasets. |
+| [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse) | Multi-year sales data was distributed across SQL Server ERP system databases and archives, making historical analysis more difficult. | Supports revenue, profitability, product, Pareto, customer, and market-basket analysis in an isolated analytical environment. |
+| [Geospatial GPS Imputation](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation) | Missing, imprecise, or invalid coordinates reduced the reliability of mapping and spatial monitoring. | Corrected or imputed approximately 1,600 documented records and provides a design that can be extended toward larger datasets. Reducing manual workload by over 70%, while seamlessly scaling to hundreds of thousands of records. |
 | [Arabic-to-English Transliteration](https://github.com/FadiSaif-BA/Transliteration-Model) | Inconsistent Arabic-to-English place-name conversion affected GIS matching, reporting, and downstream joins. | Supports more consistent multilingual data preparation through rules, applied NLP, and human review. |
 
 ### 1. [SEAL Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
@@ -137,7 +137,7 @@ The table below gives a quick overview of the portfolio. The detailed case studi
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![KNN](https://img.shields.io/badge/KNN-7C3AED?style=flat-square)
 ![Arabic NLP](https://img.shields.io/badge/Arabic_NLP-4338CA?style=flat-square)
-![Text mining](https://img.shields.io/badge/Text_normalization-4338CA?style=flat-square)
+![Text mining](https://img.shields.io/badge/Text_mining-4338CA?style=flat-square)
 ![Model evaluation](https://img.shields.io/badge/Model_evaluation-6366F1?style=flat-square)
 
 ---
