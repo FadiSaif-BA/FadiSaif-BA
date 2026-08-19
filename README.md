@@ -16,14 +16,10 @@ I am a Data & Analytics Professional with 10+ years of experience transforming o
 With a strong foundation in development-sector MEAL/MEL systems, my work bridges domain knowledge with modern data stack practices—building the pipelines, quality controls, and analytical models needed to turn fragmented sources into trustworthy insights.
 
 Core Capabilities
-
-⚙️ Analytics Engineering & Architecture: Designing pragmatic data platforms and Medallion architectures using Delta Lake, DuckDB, dbt, and Prefect, prioritizing reliability, data quality, and maintainability.
-
-📊 Analytics & BI: Building dimensional models, SQL/Python transformations, and interactive Power BI dashboards for operational decision support.
-
-🧠 Advanced Analytics & ML: Applying statistical methods and targeted machine learning—such as spatial KNN imputation and sequence modeling for text harmonization.
-
-🌍 Domain-Driven Analytics: Leveraging deep expertise in program performance, monitoring frameworks, and operational data to align data engineering directly with strategic decision-making.
+- ⚙️ Analytics Engineering & Architecture: Designing pragmatic data platforms and Medallion architectures using Delta Lake, DuckDB, dbt, and Prefect, prioritizing reliability, data quality, and maintainability.
+- 📊 Analytics & BI: Building dimensional models, SQL/Python transformations, and interactive Power BI dashboards for operational decision support.
+- 🧠 Advanced Analytics & ML: Applying statistical methods and targeted machine learning—such as spatial KNN imputation and sequence modeling for text harmonization.
+- 🌍 Domain-Driven Analytics: Leveraging deep expertise in program performance, monitoring frameworks, and operational data to align data engineering directly with strategic decision-making.
 
 The objective is always the decision the data enables. Engineering is the means, not the end.
 
