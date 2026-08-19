@@ -1,199 +1,170 @@
-# Hi there, I'm Fadi Saif 👋
+# Hi, I’m Fadi Saif
 
-### **Analytics Engineer · Data Analyst · Data Science Learner**
+### Analytics Professional | Data Analyst | BI & Decision Support
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fadisaif-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadisaif)
-[![Email](https://img.shields.io/badge/Email-fadi.saif%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fadi.saif@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-FadiSaif--BA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FadiSaif-BA)
-[![Location](https://img.shields.io/badge/Location-Aden%2C%20Yemen%20%7C%20Open%20to%20Relocation-blue?style=for-the-badge&logo=googlemaps&logoColor=white)](#-connect-with-me)
+I am an analytics-focused professional with **10+ years of experience across humanitarian programmes, MEAL/MEL, operations, reporting, and data-informed decision support**. My primary interest is analytics: understanding operational questions, defining useful measures, interpreting evidence, and communicating insights clearly.
 
----
+I use **engineering as a means to an end**. SQL, Python, data modeling, workflow automation, and modern data-stack practices help me make analytical work more reliable, repeatable, and easier to use—not replace the analytical purpose.
 
-## 🚀 About Me
-
-I am a Data & Analytics Professional with 10+ years of experience transforming operational, programmatic, and administrative data into reliable, decision-ready evidence in complex and resource-constrained environments.
-
-With a strong foundation in development-sector MEAL/MEL systems, my work bridges domain knowledge with modern data stack practices—building the pipelines, quality controls, and analytical models needed to turn fragmented sources into trustworthy insights.
-
-Core Capabilities
-- ⚙️ Analytics Engineering & Architecture: Designing pragmatic data platforms and Medallion architectures using Delta Lake, DuckDB, dbt, and Prefect, prioritizing reliability, data quality, and maintainability.
-- 📊 Analytics & BI: Building dimensional models, SQL/Python transformations, and interactive Power BI dashboards for operational decision support.
-- 🧠 Advanced Analytics & ML: Applying statistical methods and targeted machine learning—such as spatial KNN imputation and sequence modeling for text harmonization.
-- 🌍 Domain-Driven Analytics: Leveraging deep expertise in program performance, monitoring frameworks, and operational data to align data engineering directly with strategic decision-making.
-
-The objective is always the decision the data enables. Engineering is the means, not the end.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fadi%20Saif-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadisaif) [![Email](https://img.shields.io/badge/Email-fadi.saif%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fadi.saif@outlook.com) [![GitHub](https://img.shields.io/badge/GitHub-FadiSaif--BA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FadiSaif-BA)
 
 ---
 
-## 🛠️ Technical Stack & Skills
+## What I work on
 
-### 💻 Languages & Querying
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+I work on analytical problems where data is fragmented, inconsistent, difficult to reproduce, or not yet structured for decision-making. My projects span humanitarian monitoring, operational reporting, business intelligence, sales analysis, data quality, geospatial analysis, and applied NLP.
 
-### 🏗️ Analytics Engineering & Data Lakehouses
-![Architecture](https://img.shields.io/badge/Architecture-Medallion:Bronze%2FSilver%2FGold-blue?style=for-the-badge)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-000000?style=for-the-badge&logo=delta&logoColor=white)
-![Prefect](https://img.shields.io/badge/Prefect-070C18?style=for-the-badge&logo=prefect&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+| Area | Practical focus |
+|---|---|
+| **Analytics and decision support** | Translating operational questions into measures, analysis, reporting structures, and clear recommendations. |
+| **SQL and data analysis** | More than 5 years of SQL experience across reporting, extraction, transformation, relational data work, and analytical modeling. |
+| **Python for analytics** | 2–3 years of Python experience for data preparation, workflow automation, applied machine learning, and analytical experimentation. |
+| **Modern data practices** | 2–3 years of focused experience with dimensional modeling, Medallion Architecture, Delta Lake, DuckDB, and workflow orchestration. |
+| **Data quality and governance** | Standardizing identifiers, resolving duplicates, validating relationships, preserving audit trails, and separating source observations from derived values. |
+| **BI and visualization** | Preparing structured datasets and analytical models for Power BI and operational decision support. |
 
-### 📊 Business Intelligence & Data Visualization
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX & Star Schema](https://img.shields.io/badge/DAX-Star_Schema-yellow?style=for-the-badge)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power_Query-Advanced_ETL-green?style=for-the-badge)
-
-### 🧠 Data Science & Machine Learning
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+> **My focus is the insight and decision. Engineering is the means that makes the analysis more reliable and repeatable.**
 
 ---
 
-## 🎓 Education
+## Selected projects
 
-- **Master of Business Administration (MBA) — General**  
-  *Liverpool John Moores University, United Kingdom* · (Jan 2025 – Sep 2026, Continued)
-- **Bachelor of Engineering (BEng.) — Information Technology**  
-  *University of Aden, Republic of Yemen* · (Sep 2008 – Mar 2014)
+The table below gives a quick overview of the portfolio. The detailed case studies that follow explain the problem, approach, business value, and evidence for each project.
 
----
+| Project | Problem addressed | Analytical or business value |
+|---|---|---|
+| [SEAL Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse) | Assessment and reference data came from different systems and spreadsheet-based workflows, creating repeated cleaning and reproducibility challenges. | Provides a structured analytical foundation with clearer data lineage, quality controls, and reporting-ready models. |
+| [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse) | Multi-year sales data was distributed across legacy SQL Server ERP systems, making historical analysis more difficult. | Supports revenue, profitability, product, Pareto, customer, and market-basket analysis in an isolated analytical environment. |
+| [Geospatial GPS Imputation](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation) | Missing, imprecise, or invalid coordinates reduced the reliability of mapping and spatial monitoring. | Corrected or imputed approximately 1,600 documented records and provides a design that can be extended toward larger datasets. |
+| [Arabic-to-English Transliteration](https://github.com/FadiSaif-BA/Transliteration-Model) | Inconsistent Arabic-to-English place-name conversion affected GIS matching, reporting, and downstream joins. | Supports more consistent multilingual data preparation through rules, applied NLP, and human review. |
 
-## 🛡️ Professional Certifications
+### 1. [SEAL Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
 
-- 🏆 **Microsoft Data Architecture for Modern Data Stacks** | *Microsoft [Coursera]* (July 2026)
-- 📜 **MEAL DPro Flex Certification** | *Humentum* (July 2020)
-- 🗄️ **Oracle 11G Database Administrator (DBA)** | *University of Science and Technology* (68 Hours, Feb 2014)
-- 💻 **Oracle 10G Developer** | *University of Science and Technology* (160 Hours, Feb – Mar 2014)
+**Problem.** Assessment submissions and institutional reference data came from different systems and spreadsheet-based workflows. Repeated cleaning, inconsistent identifiers, duplicate records, unreliable GPS observations, and limited traceability made it difficult to reproduce analytical outputs consistently.
 
----
+**Approach.** I designed and documented a lightweight Medallion Architecture using Delta Lake, DuckDB, Python, and Prefect. The workflow separates raw ingestion, cleaning and standardization, analytical modeling, warehouse serving, and operational extraction. It includes persisted layer boundaries, schema controls, incremental API ingestion, surrogate identifiers, and referential-integrity quarantine.
 
-## 💡 Featured Repositories & Real-World Projects
+**Business value.** The project provides a structured and auditable analytical foundation for monitoring and reporting. It supports more consistent school, district, supervisor, and assessment analysis while avoiding the need to introduce a heavyweight database-server environment for the documented operating context.
 
-### 🏛️ [**Local Delta Medallion Data Lakehouse (PMIS Ecosystem)**](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
+**Evidence.** The public repository documents an operating context involving 981 schools, 27 districts, 193 district supervisors, and more than 200,000 students. It also documents a Star Schema, DuckDB analytical serving, data-quality controls, and the exclusion of sensitive operational datasets from version control.
 
-## 📌 Project Overview
+**Stack.** `Python` · `Delta Lake` · `DuckDB` · `Prefect` · `pandas` · `PyArrow` · `KoboToolbox API` · `Power BI` · `Star Schema`
 
-* **Situation:** Monolithic custom database applications can lock humanitarian projects into fragile and costly software ecosystems. At the other extreme, spreadsheet-based workflows introduce risks of data corruption, accidental overwrites, inconsistent versions, and limited auditability.
-* **Task:** Design and implement a pragmatic, low-code Data Lakehouse ecosystem for the Sustaining Education and Learning (SEAL) project PMIS, supporting the project's data governance and compliance requirements while operating under constrained infrastructure.
-* **Action:**
+[View repository →](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
 
-  * Designed a 3-tier **Medallion Architecture** (Bronze raw intake, Silver standardized and deduplicated data, Gold business-ready aggregates) using Python, Delta Lake, and DuckDB.
-  * Automated API ingestion from **KoboToolbox and CommCare**, incorporating schema validation, controlled schema evolution, ACID transactions, and automated change logging.
-  * Integrated **Power BI** as the presentation layer, separating analytical consumption from the underlying data storage and processing environment.
-* **Result:** Established automated schema validation and change tracking, enabling end-to-end lineage from field data collection through analytical outputs, while eliminating the need for dedicated database-server infrastructure. The resulting architecture supports analytical reporting across **980+ school sites**.
+### 2. [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
-### 🛠️ Key Skills and Technologies
-`Python` | `Delta Lake` | `DuckDB` | `Prefect` | `KoboToolbox API` | `CommCare API` | `Power BI` | `Medallion Architecture`
+**Problem.** Multi-year sales data was distributed across legacy SQL Server ERP systems. This made historical analysis more difficult and created a risk that analytical queries would compete with transactional workloads.
 
+**Approach.** I built a PostgreSQL ELT warehouse with Bronze, Silver, and Gold schemas. The workflow streams source data in batches, applies semantic naming and deduplication, enriches the product catalogue, normalizes financial metrics to SAR, and creates a Kimball-style Star Schema with verification checks.
 
-### 🌍 [**Algorithmic Geospatial Imputation & Coordinate Remediation**](https://github.com/FadiSaif-BA/SEAL-Geospatial-GPS-Imputation)
+**Business value.** The warehouse creates a reusable analytical foundation for revenue, profitability, product performance, Pareto, customer, and market-basket analysis. It also separates analytical workloads from the operational ERP environment and provides more consistent definitions for business reporting.
 
-## 📌 Project Overview
+**Evidence.** The public repository documents enrichment of more than 22,000 spare parts, 18,028 sales line-item facts, 54-plus mapped entities, and 14 automated verification checks covering data-integrity conditions.
 
-* **Situation:** More than **5,000 GPS records** collected through mobile field devices contained invalid or corrupted coordinates, including `(0°, 0°)`, transposed latitude/longitude values, implausible locations, and precision anomalies that displaced schools far outside their expected geographic areas.
+**Stack.** `PostgreSQL` · `Microsoft SQL Server` · `Python` · `SQL` · `pgloader` · `pyodbc` · `psycopg2` · `Dimensional Modeling` · `ELT`
 
-* **Task:** Develop a reproducible spatial imputation pipeline to recover plausible school coordinates using trusted administrative metadata (Governorate, District, and Sub-district IDs) and verified geographic reference points, while avoiding manual coordinate correction.
+[View repository →](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
-* **Action:**
+### 3. [Geospatial GPS Imputation](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation)
 
-  * Conducted forensic data and pipeline auditing to identify and classify the principal coordinate failure modes, including **Null Island coordinates, axis transposition, and precision/rounding anomalies**.
-  * Evaluated **Random Forest Regression (RFR)** against **K-Nearest Neighbors (KNN) with Inverse Distance Weighting (IDW)** for spatial coordinate imputation.
-  * Selected **KNN-IDW (`k=5`)** based on validation performance and its interpolation properties: non-negative distance-based weights produce predictions within the convex hull of the contributing reference locations, reducing implausible spatial extrapolation.
+**Problem.** Field survey systems can produce missing, imprecise, default, or out-of-bounds coordinates. These issues reduce the reliability of school-level mapping, GIS analysis, distance calculations, and spatial dashboards.
 
-* **Result:** Recovered plausible coordinates for **5,000+ corrupted school records**, achieving a **Mean Absolute Error (MAE) below 0.4 km (400 m)** under the project's validation framework. The resulting coordinates restored the dataset's usability for **GIS-based reporting, spatial analysis, and field monitoring workflows**.
+**Approach.** I implemented a three-tier cascade that uses trusted same-school observations first and distance-weighted KNN as a fallback for schools without usable historical coordinates. The process preserves original observations, records the source and quality of each coordinate, and is designed to integrate with the Silver layer of the Medallion Data Lakehouse.
 
-### 🛠️ Key Skills and Technologies
-`Python` | `Scikit-Learn` | `K-Nearest Neighbors (KNN)` | `Random Forest` | `Inverse Distance Weighting (IDW)` | `Haversine Distance` | `GIS` | `Spatial Imputation`
+**Business value.** The approach supports more usable spatial reporting and can reduce repetitive manual coordinate review. It also keeps estimated coordinates distinguishable from original field observations, which is important when spatial outputs inform monitoring or operational decisions.
 
+**Evidence.** The documented evaluation corrected or imputed approximately **1,600 of 5,210 records**. The evaluated KNN configuration (`k=5`, distance-weighted) achieved a mean error of 1.0552 km, representing a 20.6% reduction relative to the evaluated `k=1` baseline. The processing design is structured for extension toward datasets of approximately **100,000 records**; the public evaluation itself covers the 5,210-record dataset.
 
-### 🚗 [**ERP Sales & Financial Data Warehouse**](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
+**Stack.** `Python` · `scikit-learn` · `KNN` · `Random Forest` · `Inverse Distance Weighting` · `Haversine Distance` · `GIS` · `KoboToolbox API`
 
-## 📌 Project Overview
+[View repository →](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation)
 
-* **Situation:** Five years of production sales data (2021–2025) were distributed across live **MS SQL Server OLTP databases**, with the operational setup focused primarily on transactional processing rather than longitudinal analysis. Historical data was not consolidated into a common analytical model, making cross-year analysis such as **YoY revenue growth, sales trends, and product performance** difficult and inefficient, while heavy analytical queries against production systems risked affecting concurrent transactional workloads.
+### 4. [Arabic-to-English Transliteration](https://github.com/FadiSaif-BA/Transliteration-Model)
 
-* **Task:** Build a centralized **OLAP Data Warehouse and automated ingestion pipeline** that separates analytical workloads from production systems and creates a unified historical foundation for sales, revenue, and profitability analysis.
+**Problem.** Arabic administrative names can vary because of spelling, orthography, transliteration conventions, and inconsistent data entry. Manual conversion creates delays and makes GIS matching, reporting, searching, and downstream joins less consistent.
 
-* **Action:**
+**Approach.** I developed a hybrid transliteration system in which deterministic rules handle predictable patterns and a Seq2Seq LSTM with attention handles more ambiguous phonetic mappings. The workflow includes Arabic normalization, model evaluation, beam-search decoding, and human review for uncertain outputs.
 
-  * **ELT Architecture:** Designed an ELT workflow that bulk-extracts production data before transformation, minimizing compute-intensive workloads imposed on the source OLTP systems.
-  * **Data Ingestion:** Automated cross-database ingestion into **PostgreSQL 16+**, consolidating multi-year transactional records into structured `bronze` schemas using `pgloader` and Bash orchestration.
-  * **Medallion Data Modeling:** Implemented a **Bronze → Silver → Gold** architecture, progressing from raw replicated data through validation and transformation to dimensional **star schemas** optimized for analytical workloads.
-  * **Infrastructure Isolation:** Configured the cross-environment networking required to connect the source SQL Server environment with the PostgreSQL warehouse while keeping analytical processing separate from the production database.
+**Business value.** The project supports more consistent naming across multilingual operational datasets and can reduce repetitive preparation work before data is used in maps, reports, searches, and analytical models. Human validation remains part of the design where model certainty is insufficient.
 
-* **Result:** Consolidated five years of transactional data into an isolated PostgreSQL analytical warehouse, creating a persistent **historical analytical layer** that enables YoY comparisons, revenue-growth analysis, Pareto sales analysis, profitability analysis, and product performance analysis without querying the production OLTP environment. Benchmark analytical queries against the Gold layer achieved **sub-second execution**.
+**Evidence.** The public repository describes training data of approximately 81,000 name pairs and reports exact-match, functional, character, and contextual evaluation metrics on a test set of approximately 12,000 Yemeni place names. These figures should be interpreted together with their metric definitions and test-set context.
 
-### 🛠️ Key Skills and Technologies
-`PostgreSQL 16+` | `MS SQL Server` | `ELT` | `pgloader` | `Bash` | `WSL2` | `Medallion Architecture` | `Dimensional Modeling` | `OLAP Data Warehousing`
+**Stack.** `Python` · `TensorFlow` · `Keras` · `Seq2Seq` · `LSTM` · `Bahdanau Attention` · `Arabic NLP` · `Text Normalization`
 
-
-### 🧠 [**Neural Transliteration Application (Arabic-to-English)**](https://github.com/FadiSaif-BA/Transliteration-Model)
-
-## 📌 Project Overview
-
-* **Situation:** UN WFP humanitarian field operations maintained **70,000+ Yemeni geographic location records** in Arabic that required standardized English transliteration for GIS mapping, reporting, and downstream data workflows. Manual transliteration was slow, inconsistent, and difficult to scale.
-
-* **Task:** Develop an automated transliteration system capable of handling Arabic place-name phonetics and orthographic variation, while retaining **human validation** for ambiguous outputs where linguistic correctness could not be reliably determined by the model alone.
-
-* **Action:**
-
-  * Developed and trained a **Sequence-to-Sequence (Seq2Seq) neural network** using Python, TensorFlow, and Keras on 70,000+ verified location records.
-  * Built custom Arabic text-normalization pipelines to address orthographic variation, including **Tashkeel, Alef variants, and Ta Marbuta**.
-  * Evaluated model outputs using both **exact-match accuracy and human validation**, distinguishing literal string differences from linguistically valid transliteration variants.
-  * **Operationalized the model as a local human-in-the-loop application**, allowing automated transliteration outputs to be reviewed and corrected before incorporation into operational datasets. The deployment remained local due to organizational data-governance and approval requirements for external/production infrastructure.
-
-* **Result:** Achieved **93% validated transliteration accuracy**, including a **70% exact string-match rate**, with more than 90% of non-exact outputs subsequently validated by reviewers as acceptable phonetic variants. The human-in-the-loop workflow **reduced manual transliteration workload by approximately 60%** while retaining human oversight for ambiguous cases.
-
-### 🛠️ Key Skills and Technologies
-`Python` | `TensorFlow` | `Keras` | `Seq2Seq` | `NLP` | `Arabic NLP` | `Text Normalization` | `Human-in-the-Loop ML` | `GIS Data Systems`
-
-
-## 💡 Other Repositories & Projects
-
-### 📦 [**Relational Inventory Management System (RIMS)**](https://github.com/FadiSaif-BA/InventoryRecordInformationSystem_IRIS)
-
-## 📌 Project Overview
-- **Situation:** Field operations lacked a centralized, transactional asset-tracking platform, leading to equipment processing bottlenecks and audit vulnerabilities during emergency deployments.
-- **Task:** Design and implement a multi-user relational inventory database and application to track equipment lifecycles, enforce data integrity, and provide audit trails.
-- **Action:** 
-  - Designed a relational database schema in MySQL utilizing star-schema modeling principles.
-  - Implemented procedural constraints, automated triggers, and full-transaction audit logs for strict data governance.
-  - Developed a full-stack desktop UI in C# (.NET) and Python to streamline equipment check-in/check-out workflows.
-- **Result:** **Reduced equipment processing and reconciliation time by 75%** while **improving data accuracy by over 50%**, ensuring accountability for high-value assets across field deployments.
-
-### 🛠️ Key Skills and Technologies
-`MySQL` | `C# (.NET)` | `Python` | `SQL Triggers & Audit Logs` | `Data Governance` | `Star Schema`
+[View repository →](https://github.com/FadiSaif-BA/Transliteration-Model)
 
 ---
 
-## 📊 Quantified Professional Impact
+## Impact and working style
 
-* **💰 $30M+ Funding Supported** — Produced analytical evidence and monitoring insights that contributed to **$30M+ in humanitarian programme funding** across multiple funding cycles.
-
-* **🗺️ 1,628 GPS Records Corrected or Imputed** — Built a 3-tier geospatial correction system that processed **5,210 assessment records**, recovering **1,628 records (31%)** with invalid or unreliable coordinates; the KNN fallback achieved **1.06 km mean error**, a **20.6% improvement over the k=1 baseline**.
-
-* **🏗️ Millions of Assessment Responses Structured** — Built a Delta Lake medallion pipeline and star-schema warehouse to consolidate large-scale education assessment data from fragmented spreadsheet and API sources into a governed analytical structure.
-
-* **⚙️ 50–60% Manual Processing Reduction** — Automated repetitive data-processing and transliteration tasks using database applications, ML, and automated pipelines, reducing manual workload by **approximately 50–60%**.
-
-* **⏱️ ~50% Reporting Delay Reduction** — Automated data transformation and reporting workflows, reducing reporting-cycle delays by **approximately 50%**.
-
-* **🔤 81K+ Arabic–English Training Pairs** — Developed a hybrid rule-based and neural transliteration system trained on **81,000+ name pairs** to standardize Yemeni administrative names for downstream data processing and analysis.
+- I connect analytical work to programme, operational, financial, and reporting questions rather than treating technology as the objective.
+- I use SQL as my strongest technical foundation and Python as a growing tool for automation, data preparation, and applied machine learning.
+- I prefer transparent workflows that preserve source observations, document assumptions, and make unresolved records visible for review.
+- I aim to produce analysis that is understandable to decision-makers and maintainable by the people who will use it after delivery.
 
 ---
 
-## 📫 Connect With Me
+## Technical toolkit
 
-- 📧 **Email**: [fadi.saif@outlook.com](mailto:fadi.saif@outlook.com)
-- 💼 **LinkedIn**: [linkedin.com/in/fadisaif](https://www.linkedin.com/in/fadisaif)
-- 🐙 **GitHub Profile**: [github.com/FadiSaif-BA](https://github.com/FadiSaif-BA)
-- 📍 **Location**: Aden, Yemen · **Open to Expatriate Relocation & Remote Roles**
+**Analytics and querying:**  
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+**Data modeling and storage:**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MS SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=flat-square)
+![Star Schema](https://img.shields.io/badge/Star_Schema-4A5568?style=flat-square)
+![Dimensional Modeling](https://img.shields.io/badge/Dimensional_Modeling-4A5568?style=flat-square)
+![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-0F766E?style=flat-square)
+
+**Workflow and data preparation:**  
+![Prefect](https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white)
+![PyArrow](https://img.shields.io/badge/PyArrow-E4155B?style=flat-square&logo=apachearrow&logoColor=white)
+![openpyxl](https://img.shields.io/badge/openpyxl-217346?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square)
+![Data validation](https://img.shields.io/badge/Data_validation-475569?style=flat-square)
+![Deduplication](https://img.shields.io/badge/Deduplication-475569?style=flat-square)
+![Referential-integrity checks](https://img.shields.io/badge/Referential--integrity_checks-475569?style=flat-square)
+
+**BI and reporting:**  
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![KPI design](https://img.shields.io/badge/KPI_design-0284C7?style=flat-square)
+![Operational reporting](https://img.shields.io/badge/Operational_reporting-0284C7?style=flat-square)
+![Monitoring and evaluation analytics](https://img.shields.io/badge/M%26E_Analytics-0369A1?style=flat-square)
+
+**Applied data science:**  
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![KNN](https://img.shields.io/badge/KNN-7C3AED?style=flat-square)
+![Geospatial analysis](https://img.shields.io/badge/Geospatial_analysis-059669?style=flat-square)
+![Arabic NLP](https://img.shields.io/badge/Arabic_NLP-4338CA?style=flat-square)
+![Text normalization](https://img.shields.io/badge/Text_normalization-4338CA?style=flat-square)
+![Model evaluation](https://img.shields.io/badge/Model_evaluation-6366F1?style=flat-square)
 
 ---
 
-<p align="center">
-  <i>"Transforming complex operational data into auditable lakehouses, reliable pipelines, and strategic decision support."</i>
-</p>
+## Education and certifications
+
+- **Master of Business Administration**, Liverpool John Moores University, United Kingdom — ongoing
+- **Bachelor of Engineering in Information Technology**, University of Aden, Yemen
+- **Microsoft Data Architecture for Modern Data Stacks**, Coursera — 2026
+- **MEAL DPro Flex Certification**, Humentum — 2020
+- **Oracle Database Administration and Development certifications** — 2014
+
+---
+
+## Let’s connect
+
+I am interested in analytics, data analysis, business intelligence, monitoring and evaluation, data quality, and applied analytical work where technical methods are connected to real operational or business questions.
+
+[LinkedIn](https://www.linkedin.com/in/fadisaif) · [GitHub](https://github.com/FadiSaif-BA) · [Email](mailto:fadi.saif@outlook.com)
+
+> Turning complex operational data into clearer analysis, more reliable evidence, and better-informed decisions.
+
