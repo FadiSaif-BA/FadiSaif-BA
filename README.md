@@ -37,7 +37,7 @@ My focus is on **turning operational data into reliable, decision-ready evidence
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 ### 🏗️ Analytics Engineering & Data Lakehouses
-![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-Bronze%2FSilver%2FGold-blue?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Medallion_Architecture-Bronze%2FSilver%2FGold-blue?style=for-the-badge)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-000000?style=for-the-badge&logo=delta&logoColor=white)
 ![Prefect](https://img.shields.io/badge/Prefect-070C18?style=for-the-badge&logo=prefect&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
